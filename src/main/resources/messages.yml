@@ -1,0 +1,7 @@
+prefix: '<gradient:#A8E6CF:#C8A2FF>[OVENQUILL]</gradient> '
+no-permission: '<red>Недостаточно прав.</red>'
+player-only: '<red>Команда доступна только игроку.</red>'
+hold-blade: '<red>Возьмите Клинок душ в основную руку.</red>'
+invalid-blade: '<red>Предмет не прошёл проверку подлинности.</red>'
+level-up: '<#A8E6CF>Клинок душ достиг уровня <#C8A2FF>{level}</#C8A2FF>!</#A8E6CF>'
+storage-busy: '<red>Хранилище перегружено. Прогресс не начислен.</red>'

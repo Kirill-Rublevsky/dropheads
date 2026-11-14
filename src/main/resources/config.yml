@@ -1,0 +1,48 @@
+plugin:
+  language: ru
+  debug: false
+  server-id: backend-1
+soulblade:
+  damage-hp: 0.5
+leveling:
+  max-level: 50
+  total-kills-to-max: 1000000
+heads:
+  starting-chance-percent: 0.3
+  chance-per-level-percent: 0.3
+  max-chance-percent: 15.0
+  wither-skeleton:
+    block-vanilla-drop: true
+anti-farm:
+  players:
+    same-victim-cooldown-minutes: 30
+  mobs:
+    count-spawn-egg-mobs: false
+storage:
+  type: SQLITE
+  sqlite-file: soulblade.db
+  mariadb:
+    host: localhost
+    port: 3306
+    database: minecraft
+    username: root
+    password: change-me
+    pool-size: 4
+  queue-capacity: 4096
+  shutdown-timeout-seconds: 15
+security:
+  signing-secret: CHANGE_ME_GENERATED_ON_FIRST_START
+  duplicate-window-seconds: 10
+cache:
+  max-blades: 10000
+  expire-after-access-minutes: 30
+effects:
+  level-up-sound: true
+  level-up-particles: true
+  level-up-actionbar: true
+history:
+  owner-change-cooldown-seconds: 60
+backups:
+  enabled: true
+  interval-hours: 24
+  keep-count: 7

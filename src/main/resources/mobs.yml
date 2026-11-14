@@ -1,0 +1,8 @@
+# Для декоративной головы укажите texture как Base64-значение свойства textures.
+mobs:
+  ZOMBIE: {enabled: true, material: ZOMBIE_HEAD, name: '<green>Голова зомби</green>'}
+  SKELETON: {enabled: true, material: SKELETON_SKULL, name: '<white>Череп скелета</white>'}
+  CREEPER: {enabled: true, material: CREEPER_HEAD, name: '<green>Голова крипера</green>'}
+  PIGLIN: {enabled: true, material: PIGLIN_HEAD, name: '<gold>Голова пиглина</gold>'}
+  ENDER_DRAGON: {enabled: true, material: DRAGON_HEAD, name: '<light_purple>Голова дракона</light_purple>'}
+  WITHER_SKELETON: {enabled: false, material: WITHER_SKELETON_SKULL, name: '<gray>Череп визер-скелета</gray>'}

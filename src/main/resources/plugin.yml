@@ -1,0 +1,29 @@
+name: OvenquillSoulblade
+version: '${version}'
+main: io.github.kirillrublevsky.soulblade.SoulbladePlugin
+api-version: '26.2'
+author: OVENQUILL
+description: Легендарный Клинок душ для Paper/Purpur 26.2
+commands:
+  soulblade:
+    description: Управление Клинком душ
+    usage: /soulblade <info|history|recipe|admin|performance>
+    aliases: [sb]
+permissions:
+  ovenquill.soulblade.use: {default: true}
+  ovenquill.soulblade.info: {default: true}
+  ovenquill.soulblade.history: {default: true}
+  ovenquill.soulblade.recipe.admin: {default: op}
+  ovenquill.soulblade.admin: {default: op}
+  ovenquill.soulblade.give: {default: op}
+  ovenquill.soulblade.setlevel: {default: op}
+  ovenquill.soulblade.setkills: {default: op}
+  ovenquill.soulblade.inspect: {default: op}
+  ovenquill.soulblade.validate: {default: op}
+  ovenquill.soulblade.stats: {default: op}
+  ovenquill.soulblade.reload: {default: op}
+  ovenquill.soulblade.recover: {default: op}
+  ovenquill.soulblade.backup: {default: op}
+  ovenquill.soulblade.craftdiag: {default: op}
+  ovenquill.soulblade.diagnose: {default: op}
+  ovenquill.soulblade.performance: {default: op}
